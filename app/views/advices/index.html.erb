@@ -1,110 +1,105 @@
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-          <li class="nav-item active">
-            <%= link_to 'Home', root_path, class: 'navbar-brand' %>
-          </li>
           <button type="button" class="btn btn-outline-primary btn-sm"><li class="nav-item">
-             <%= link_to 'New Advice', new_advice_path, class: 'nav-link' %>
-          </li></button>
+           <%= link_to 'New Advice', new_advice_path, class: 'nav-link' %>
+         </li></button>
+       </div>
+     </nav>
+
+     <h1 align="center">10 Steps To Ace Your Next Quiz:</h1>
+
+     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <%= image_tag 'quiz.jpg', class: 'd-block img-fluid' %>
+        </div>
+        <div class="carousel-item">
+          <%= image_tag 'books.jpg', class: 'd-block img-fluid' %>
+        </div>
+        <div class="carousel-item">
+          <%= image_tag 'study.jpg', class: 'd-block img-fluid' %>
+        </div>
       </div>
-    </nav>
-
-<h1 align="center">10 Steps To Ace Your Next Quiz:</h1>
-
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <%= image_tag 'quiz.jpg', class: 'd-block img-fluid' %>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    <div class="carousel-item">
-      <%= image_tag 'books.jpg', class: 'd-block img-fluid' %>
-    </div>
-    <div class="carousel-item">
-      <%= image_tag 'study.jpg', class: 'd-block img-fluid' %>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br />
+    <br />
 
-  <div class="col-10 offset-1">
-  <p class="intro">We promise your teacher isn’t out to get you. As unpleasant as taking a test can often be, it actually does more than just show your teacher what you know: it can actually help you learn. <a href="http://news.stlpublicradio.org/post/are-you-studying-effectively-what-wash-us-science-memory-tells-us-about-best-way-learn#stream/0">Studies have shown</a> that students who are tested regularly actually learn more content and retain it longer than students who have not been tested. Great news for <a href="https://www.princetonreview.com/college-advice/how-to-study-for-finals">final exams</a>. Frequent testing has even been shown to help decrease test anxiety.
-  Not sure how to study for a test? Follow these study tips to make your best grade!  </p></div>
+    <div class="col-10 offset-1">
+      <p class="intro">We promise your teacher isn’t out to get you. As unpleasant as taking a test can often be, it actually does more than just show your teacher what you know: it can actually help you learn. <a href="http://news.stlpublicradio.org/post/are-you-studying-effectively-what-wash-us-science-memory-tells-us-about-best-way-learn#stream/0">Studies have shown</a> that students who are tested regularly actually learn more content and retain it longer than students who have not been tested. Great news for <a href="https://www.princetonreview.com/college-advice/how-to-study-for-finals">final exams</a>. Frequent testing has even been shown to help decrease test anxiety.
+      Not sure how to study for a test? Follow these study tips to make your best grade!  </p></div>
 
-  <ol>
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-    <h2><li>Get informed</li></h2>
-    <p>Don’t walk into your test unprepared for what you will face. Before you start studying, find out: 
-      <ul>
-        <li>textbook chapters and topics the test will cover</li>
-        <li>test format</li>
-      </ul>
-    </p>
-    <p>Will there be multiple-choice questions or short answers? Will you write an in-class essay? The goals and layout of the test will determine how you tackle learning the material. 
-    </p></div>
+      <ol>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <h2><li>Get informed</li></h2>
+              <p>Don’t walk into your test unprepared for what you will face. Before you start studying, find out: 
+                <ul>
+                  <li>textbook chapters and topics the test will cover</li>
+                  <li>test format</li>
+                </ul>
+              </p>
+              <p>Will there be multiple-choice questions or short answers? Will you write an in-class essay? The goals and layout of the test will determine how you tackle learning the material. 
+              </p></div>
 
-        <div class="col-sm-6">
-    <h2><li>Think like your teacher</li></h2>
-    <p>Your homeworks assignments, quizzes, handouts, <a href="https://www.princetonreview.com/college-advice/taking-notes-in-class">daily notes</a>, and classwork are all indicators of what your teacher thinks is important about the information and what might appear on the test.</p></div>
+              <div class="col-sm-6">
+                <h2><li>Think like your teacher</li></h2>
+                <p>Your homeworks assignments, quizzes, handouts, <a href="https://www.princetonreview.com/college-advice/taking-notes-in-class">daily notes</a>, and classwork are all indicators of what your teacher thinks is important about the information and what might appear on the test.</p></div>
 
 
-    <div class="col-sm-6">
-    <h2><li>Make your own study aids</li></h2>
-    <p>When it comes to learning, a <a href="https://www.psychologicalscience.org/publications/journals/pspi/learning-techniques.html">2013 study</a> showed that practice tests work BETTER than simply highlighting or re-reading your notes. So, turn your notes into flashcards or use a flashcard app for memorizing <a href="https://www.princetonreview.com/academic-tutoring/subjects/spanish">Spanish</a> vocab. Ask your friends to quiz you or write your own practice test.</p></div>
+              <div class="col-sm-6">
+                <h2><li>Make your own study aids</li></h2>
+                  <p>When it comes to learning, a <a href="https://www.psychologicalscience.org/publications/journals/pspi/learning-techniques.html">2013 study</a> showed that practice tests work BETTER than simply highlighting or re-reading your notes. So, turn your notes into flashcards or use a flashcard app for memorizing <a href="https://www.princetonreview.com/academic-tutoring/subjects/spanish">Spanish</a> vocab. Ask your friends to quiz you or write your own practice test.</p></div>
 
-    <div class="col-sm-6">
-    <h2><li>Practice for the inevitable</li></h2>
-    <p>Outline essays ahead of time. For math tests, do plenty of practice problems similar to ones that you KNOW will appear. Make a list of questions that you think might show up on the test (and then make sure you can answer them!).</p></div>
-
-
-    <div class="col-sm-6">
-    <h2><li>Study every day</li></h2>
-    <p>If you have a test in a week, studying a little each day will help you identify tough concepts or weak areas in your knowledge in advance. Can't figure out factoring? Log on to <a href="https://www.princetonreview.com/academic-tutoring">Homework Help</a> and get your questions answered.</p></div>
-
-    <div class="col-sm-6">
-    <h2><li>Cut out the distractions</li></h2>
-    <p><a href="https://www.princetonreview.com/college-advice/homework-distractions">Distractions</a> make it difficult to pay attention to what you’re doing, which in turn makes it harder to commit facts to memory. Give yourself a leg up by turning off the notifications on your phone, temporarily blocking your favorite websites, or sticking to instrumental music while you study (so you’re not tempted to sing along!). Taking a break every 45 minutes or so will also help you stay focused.</p></div>
+              <div class="col-sm-6">
+                <h2><li>Practice for the inevitable</li></h2>
+                  <p>Outline essays ahead of time. For math tests, do plenty of practice problems similar to ones that you KNOW will appear. Make a list of questions that you think might show up on the test (and then make sure you can answer them!).</p></div>
 
 
-    <div class="col-sm-6">
-    <h2><li>Divide big concepts from smaller details</li></h2>
-    <p>If you're studying a big topic—like the Civil War for <a href="https://www.princetonreview.com/academic-tutoring/subjects/us-history">history</a> or cellular processes for <a href="https://www.princetonreview.com/academic-tutoring/subjects/biology">biology</a>—try breaking the material you need to study into chunks. Study one battle at a time or one chapter section at a time—and then quiz yourself. Ask yourself questions about what you’ve just studied, and even write your answers down.</p></div>
+              <div class="col-sm-6">
+                <h2><li>Study every day</li></h2>
+                  <p>If you have a test in a week, studying a little each day will help you identify tough concepts or weak areas in your knowledge in advance. Can't figure out factoring? Log on to <a href="https://www.princetonreview.com/academic-tutoring">Homework Help</a> and get your questions answered.</p></div>
 
-    <div class="col-sm-6">
-    <h2><li>Don’t neglect the “easy” stuff</li></h2>
-    <p>Even if you’ve been acing a certain subject or concept all year and think the test will be a breeze, you should still give it a review before the big day. You don’t want to lose points for careless errors or forget to memorize a key <a href="https://www.princetonreview.com/academic-tutoring/subjects/geometry">geometry</a> formula.</p></div>
-
-
-    <div class="col-sm-6">
-    <h2><li>Don’t skip school</li></h2>
-    <p>Missing classes automatically puts you at a disadvantage. Make sure you go to class (especially during the week leading up to the test) and attend any review sessions your teacher holds. Did you have to miss an important class? You can always ask your teacher or one of <a href="https://www.princetonreview.com/academic-tutoring/tutor-search">our tutors</a> for help catching up.</p></div>
-
-    <div class="col-sm-6">
-    <h2><li>Review the day of the test</li></h2>
-    <p>Before you take the test, give yourself time for a quick review. Shuffle through those flashcards a couple of times or re-read your chapter outline. This will ensure the material is fresh in your mind.</p></div>
+              <div class="col-sm-6">
+                <h2><li>Cut out the distractions</li></h2>
+                  <p><a href="https://www.princetonreview.com/college-advice/homework-distractions">Distractions</a> make it difficult to pay attention to what you’re doing, which in turn makes it harder to commit facts to memory. Give yourself a leg up by turning off the notifications on your phone, temporarily blocking your favorite websites, or sticking to instrumental music while you study (so you’re not tempted to sing along!). Taking a break every 45 minutes or so will also help you stay focused.</p></div>
 
 
-    <div class="clear"></div>
-    <div class="col-sm-6">
-      <% @advices.each do |advice| %>
-        <h2><li><%= advice.title %></li></h2>
-        <p><%= advice.description %></p></div>
-      <% end %>
+              <div class="col-sm-6">
+                <h2><li>Divide big concepts from smaller details</li></h2>
+                  <p>If you're studying a big topic—like the Civil War for <a href="https://www.princetonreview.com/academic-tutoring/subjects/us-history">history</a> or cellular processes for <a href="https://www.princetonreview.com/academic-tutoring/subjects/biology">biology</a>—try breaking the material you need to study into chunks. Study one battle at a time or one chapter section at a time—and then quiz yourself. Ask yourself questions about what you’ve just studied, and even write your answers down.</p></div>
 
-</div>
-  </ol>
-  </div>
-</div>
+              <div class="col-sm-6">
+                <h2><li>Don’t neglect the “easy” stuff</li></h2>
+                  <p>Even if you’ve been acing a certain subject or concept all year and think the test will be a breeze, you should still give it a review before the big day. You don’t want to lose points for careless errors or forget to memorize a key <a href="https://www.princetonreview.com/academic-tutoring/subjects/geometry">geometry</a> formula.</p></div>
+
+
+              <div class="col-sm-6">
+                <h2><li>Don’t skip school</li></h2>
+                  <p>Missing classes automatically puts you at a disadvantage. Make sure you go to class (especially during the week leading up to the test) and attend any review sessions your teacher holds. Did you have to miss an important class? You can always ask your teacher or one of <a href="https://www.princetonreview.com/academic-tutoring/tutor-search">our tutors</a> for help catching up.</p></div>
+
+              <div class="col-sm-6">
+                <h2><li>Review the day of the test</li></h2>
+                  <p>Before you take the test, give yourself time for a quick review. Shuffle through those flashcards a couple of times or re-read your chapter outline. This will ensure the material is fresh in your mind.</p></div>
+
+              <div class="col-sm-6">
+                <% @advices.each do |advice| %>
+                  <h2><li><%= advice.title %></li></h2>
+                       <p><%= advice.description %></p></div>
+                <% end %>
+
+              </div>
+             </ol>
+          </div>
+        </div>
 
 
 
