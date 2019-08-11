@@ -90,17 +90,16 @@
                 <h2><li>Review the day of the test</li></h2>
                   <p>Before you take the test, give yourself time for a quick review. Shuffle through those flashcards a couple of times or re-read your chapter outline. This will ensure the material is fresh in your mind.</p></div>
 
+              <% @advices.each do |advice| %>
               <div class="col-sm-6">
-                <% @advices.each do |advice| %>
-                  <h2><li><%= advice.title %></li></h2>
-                       <p><%= advice.description %></p></div>
-                <% end %>
-
+                <h2><li><%= advice.title %></li></h2>
+                     <p><%= advice.description %></p></div>
+              <% end %>
+          
               </div>
              </ol>
           </div>
         </div>
-
 
 
 
