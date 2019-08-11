@@ -1,3 +1,15 @@
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+          <li class="nav-item active">
+            <%= link_to 'Home', root_path, class: 'navbar-brand' %>
+          </li>
+          <button type="button" class="btn btn-outline-primary btn-sm"><li class="nav-item">
+             <%= link_to 'New Advice', new_advice_path, class: 'nav-link' %>
+          </li></button>
+      </div>
+    </nav>
+
 <h1 align="center">10 Steps To Ace Your Next Quiz:</h1>
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -81,6 +93,8 @@
     <h2><li>Review the day of the test</li></h2>
     <p>Before you take the test, give yourself time for a quick review. Shuffle through those flashcards a couple of times or re-read your chapter outline. This will ensure the material is fresh in your mind.</p></div>
 
+
+    <div class="clear"></div>
     <div class="col-sm-6">
       <% @advices.each do |advice| %>
         <h2><li><%= advice.title %></li></h2>
@@ -91,8 +105,6 @@
   </ol>
   </div>
 </div>
-
-
 
 
 
