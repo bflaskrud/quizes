@@ -1,11 +1,11 @@
 <div class="booyah-box col-10 offset-1">
-<h1 align="center">Add Your New Advice</h1>
-<%= simple_form_for @advice do |f| %>
+  <h1 align="center">Add Your New Advice</h1>
+    <%= simple_form_for @advice do |f| %>
     <%= f.input :title %>
     <%= f.input :description %>
     <br />
     <%= f.submit 'Add', class: 'btn btn-primary' %>
-  <% end %>
+    <% end %>
 </div>
 
 
